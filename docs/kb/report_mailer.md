@@ -24,6 +24,7 @@ An overview of the parameters that can be used:
 | e_mail                |               | string    | Email address to which the email has to be sent. (The TSFReportMailer can be sent to multiple email addresses, which have to be separated by a semicolon.) |
 | cc                    |               | string    | CC email address for the email. (The TSFReportMailer can be sent to multiple email addresses, which have to be separated by a semicolon.) |
 | bcc                   |               | string    | BCC email address for the email. (The TSFReportMailer can be sent to multiple email addresses, which have to be separated by a semicolon.) |
+| reply_to              |               | string    | Reply-to email address for the email. (Multiple email addresses can be added here, which have to be separated by a semicolon.) |
 | body                  |               | string    | If HTML tags are used for the actual message of the email, then the html parameter has to be set to true. |
 | subject               |               | string    | The subject of the email.                                    |
 | use_signature         | false         | boolean   | If this parameter is set to true, the standard signature is used that is configured in Outlook. |
